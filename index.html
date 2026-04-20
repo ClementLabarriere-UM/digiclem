@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digiclem | Agence Digitale & SaaS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-text {
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-white selection:bg-blue-500">
+
+    <nav class="flex justify-between items-center p-6 max-w-7xl mx-auto">
+        <div class="text-2xl font-black tracking-tighter">DIGICLEM<span class="text-blue-500">.</span></div>
+        <div class="hidden md:flex gap-8 text-sm font-medium text-slate-400">
+            <a href="#" class="hover:text-white transition">Expertises</a>
+            <a href="#" class="hover:text-white transition">SaaS</a>
+            <a href="#" class="hover:text-white transition">Contact</a>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-6 pt-20 pb-32 text-center md:text-left">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="inline-block py-1 px-3 rounded-full bg-blue-500/10 text-blue-400 text-xs font-bold mb-6">
+                    COMMUNITY MANAGEMENT • WEB • SAAS
+                </span>
+                <h1 class="text-5xl md:text-7xl font-black leading-tight mb-6">
+                    L'agence qui <span class="gradient-text">code</span> votre succès.
+                </h1>
+                <p class="text-slate-400 text-lg mb-8 max-w-lg">
+                    De la gestion de votre image de marque au développement de solutions SaaS comme <strong>Espace-Production</strong>, nous créons le futur de votre entreprise.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="mailto:contact@digiclem.fr" class="bg-white text-black px-8 py-4 rounded-xl font-bold hover:bg-blue-500 hover:text-white transition-all text-center">
+                        Démarrer un projet
+                    </a>
+                    <a href="#" class="border border-slate-800 px-8 py-4 rounded-xl font-bold hover:bg-slate-900 transition-all text-center">
+                        Voir nos réalisations
+                    </a>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl blur opacity-25"></div>
+                <div class="relative bg-slate-900 border border-slate-800 p-4 rounded-2xl shadow-2xl">
+                    <div class="aspect-video bg-slate-800 rounded-lg flex items-center justify-center text-slate-500 italic">
+                        [ Aperçu Espace-Production.fr ]
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

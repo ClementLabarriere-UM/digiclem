@@ -20,10 +20,11 @@
     <header class="fixed w-full z-50 px-6 py-6">
         <nav class="max-w-7xl mx-auto flex justify-between items-center glass rounded-2xl px-6 py-3">
             <div class="flex items-center">
-                <img src="logo.png" alt="Digiclem" class="h-10 w-auto">
+                <a href="/"><img src="logo.png" alt="Digiclem" class="h-10 w-auto"></a>
             </div>
             <div class="hidden md:flex gap-10 text-sm font-bold tracking-wide">
-                <a href="community-management.html" class="text-slate-400 hover:text-white transition">Community Management</a>
+                <a href="/community-management" class="text-slate-400 hover:text-white transition">Community Management</a>
+                <a href="/solutions-saas" class="text-slate-400 hover:text-white transition">Logiciels & SaaS</a>
                 <a href="#contact" class="bg-white text-black px-5 py-2 rounded-xl hover:bg-blue-500 hover:text-white transition-all">
                     Me contacter
                 </a>
@@ -51,7 +52,7 @@
             <div class="flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-70">
                 <div class="text-center">
                     <span class="text-xl font-bold tracking-tighter block text-white">GANG OF PIZZA</span>
-                    <span class="text-[10px] text-blue-400 font-bold">VALLON DE TOURNE</span>
+                    <span class="text-[10px] text-blue-400 font-bold uppercase tracking-widest">Vallon de Tourne</span>
                 </div>
                 <span class="text-2xl font-serif italic text-white">Domaine Bayard</span>
                 <span class="text-3xl font-black tracking-widest italic text-white uppercase">Pizza Mi</span>
@@ -61,27 +62,19 @@
 
     <section id="offres" class="py-24 px-6 max-w-7xl mx-auto">
         <div class="grid md:grid-cols-2 gap-10">
-            <div class="glass p-12 rounded-[3rem] hover-card relative overflow-hidden group">
+            <a href="/community-management" class="glass p-12 rounded-[3rem] hover-card relative overflow-hidden group block">
                 <h3 class="text-blue-400 font-bold mb-2 uppercase tracking-widest text-sm">Stratégie & Image</h3>
                 <h4 class="text-4xl font-extrabold mb-6">Studio Créatif</h4>
-                <p class="text-slate-400 text-lg mb-8 leading-relaxed">De la gestion de vos réseaux sociaux à la création de votre site vitrine, nous façonnons une image de marque forte, éthique et mémorable.</p>
-                <ul class="space-y-4 text-slate-300">
-                    <li class="flex items-center gap-3 font-medium">✓ Community Management sur-mesure</li>
-                    <li class="flex items-center gap-3 font-medium">✓ Création de sites vitrines haut de gamme</li>
-                    <li class="flex items-center gap-3 font-medium">✓ Stratégie de contenu & Branding</li>
-                </ul>
-            </div>
+                <p class="text-slate-400 text-lg mb-8 leading-relaxed">De la gestion de vos réseaux sociaux à la création de votre site vitrine, nous façonnons une image de marque forte.</p>
+                <span class="text-white font-bold inline-flex items-center gap-2 group-hover:gap-4 transition-all">En savoir plus <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></span>
+            </a>
 
-            <div class="glass p-12 rounded-[3rem] hover-card relative overflow-hidden group border-l-4 border-l-blue-500">
+            <a href="/solutions-saas" class="glass p-12 rounded-[3rem] hover-card relative overflow-hidden group border-l-4 border-l-blue-500 block">
                 <h3 class="text-purple-400 font-bold mb-2 uppercase tracking-widest text-sm">Code & Performance</h3>
                 <h4 class="text-4xl font-extrabold mb-6">Ingénierie SaaS</h4>
-                <p class="text-slate-400 text-lg mb-8 leading-relaxed">Nous développons des logiciels métiers qui automatisent vos processus. Transformez vos idées en outils scalables et performants.</p>
-                <ul class="space-y-4 text-slate-300">
-                    <li class="flex items-center gap-3 font-medium">✓ Développement de logiciels SaaS</li>
-                    <li class="flex items-center gap-3 font-medium">✓ Automatisation de production</li>
-                    <li class="flex items-center gap-3 font-medium">✓ Solutions sur-mesure cloud-native</li>
-                </ul>
-            </div>
+                <p class="text-slate-400 text-lg mb-8 leading-relaxed">Nous développons des logiciels métiers qui automatisent vos processus. Transformez vos idées en outils scalables.</p>
+                <span class="text-white font-bold inline-flex items-center gap-2 group-hover:gap-4 transition-all">En savoir plus <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></span>
+            </a>
         </div>
     </section>
 
@@ -90,15 +83,12 @@
             <div class="grid lg:grid-cols-5 gap-16 items-center">
                 <div class="lg:col-span-2">
                     <div class="inline-block px-4 py-1 rounded-full bg-blue-500/10 text-blue-400 font-bold text-xs mb-6 uppercase tracking-widest">Success Story SaaS</div>
-                    <h2 class="text-5xl font-black mb-6 italic">Espace-Production.fr</h2>
+                    <h2 class="text-5xl font-black mb-6 italic tracking-tighter">Espace-Production.fr</h2>
                     <p class="text-slate-300 text-lg mb-6 leading-relaxed">
-                        Né pour répondre aux besoins critiques de <strong>Gang Of Pizza (Vallon de Tourne)</strong>, ce SaaS est aujourd'hui l'outil de référence pour les exploitants de distributeurs automatiques.
+                        Né pour répondre aux besoins de <strong>Gang Of Pizza</strong>, ce SaaS est aujourd'hui l'outil de référence pour les exploitants de distributeurs.
                     </p>
-                    <div class="p-6 bg-blue-600/10 rounded-2xl border border-blue-500/20 mb-8">
-                        <p class="text-sm text-slate-300 italic">"Gérez votre production, vos stocks et votre logistique en une seule interface intelligente."</p>
-                    </div>
-                    <a href="https://espace-production.fr" target="_blank" class="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-xl font-bold transition-all inline-block shadow-xl shadow-blue-600/20">
-                        Visiter le projet
+                    <a href="/solutions-saas" class="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-xl font-bold transition-all inline-block shadow-xl shadow-blue-600/20">
+                        Étude de cas détaillée
                     </a>
                 </div>
 
@@ -106,10 +96,10 @@
                     <div class="glass rounded-3xl p-3 shadow-2xl">
                         <div class="bg-[#1a1c20] rounded-t-2xl p-3 flex items-center gap-2 border-b border-white/5">
                             <div class="flex gap-1.5"><div class="w-2.5 h-2.5 rounded-full bg-red-500"></div><div class="w-2.5 h-2.5 rounded-full bg-yellow-500"></div><div class="w-2.5 h-2.5 rounded-full bg-green-500"></div></div>
-                            <div class="mx-auto bg-[#0d0f12] text-[10px] text-slate-500 px-10 py-1 rounded border border-white/5 font-mono">espace-production.fr</div>
+                            <div class="mx-auto bg-[#0d0f12] text-[10px] text-slate-500 px-10 py-1 rounded border border-white/5 font-mono italic">espace-production.fr</div>
                         </div>
                         <div class="relative aspect-video rounded-b-2xl overflow-hidden">
-                            <iframe src="https://espace-production.fr" class="w-full h-full border-none" title="Aperçu Espace Production" loading="lazy"></iframe>
+                            <iframe src="https://espace-production.fr" class="w-full h-full border-none shadow-inner" title="Aperçu Espace Production" loading="lazy"></iframe>
                         </div>
                     </div>
                 </div>
@@ -118,14 +108,14 @@
     </section>
 
     <section id="contact" class="py-24 px-6 max-w-3xl mx-auto">
-        <div class="glass p-12 rounded-[3rem] text-center">
-            <h2 class="text-4xl font-bold mb-4">Prêt à digitaliser votre succès ?</h2>
-            <p class="text-slate-400 mb-10 text-lg">Discutons de votre stratégie CM ou de votre futur logiciel SaaS.</p>
+        <div class="glass p-12 rounded-[3rem] text-center border-t border-blue-500/20">
+            <h2 class="text-4xl font-bold mb-4 tracking-tight">Prêt à changer de dimension ?</h2>
+            <p class="text-slate-400 mb-10 text-lg">Parlons de votre prochain grand projet digital.</p>
             
             <form action="mailto:contact@digiclem.fr" method="POST" enctype="text/plain" class="space-y-4">
                 <input type="text" placeholder="Votre nom" class="w-full bg-white/5 border border-white/10 rounded-xl px-6 py-4 focus:border-blue-500 outline-none transition">
                 <input type="email" placeholder="Votre email" class="w-full bg-white/5 border border-white/10 rounded-xl px-6 py-4 focus:border-blue-500 outline-none transition">
-                <textarea placeholder="Votre projet (CM, Site Vitrine, SaaS...)" rows="4" class="w-full bg-white/5 border border-white/10 rounded-xl px-6 py-4 focus:border-blue-500 outline-none transition"></textarea>
+                <textarea placeholder="Décrivez votre besoin (CM, Site Vitrine, SaaS...)" rows="4" class="w-full bg-white/5 border border-white/10 rounded-xl px-6 py-4 focus:border-blue-500 outline-none transition"></textarea>
                 <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl transition-all">
                     Envoyer ma demande
                 </button>
@@ -135,8 +125,11 @@
 
     <footer class="py-20 border-t border-white/5 px-6 text-center">
         <img src="logo.png" alt="Digiclem" class="h-8 mx-auto mb-8 opacity-50">
-        <p class="text-slate-500 text-sm">© 2026 Digiclem. Tous droits réservés.</p>
-        <p class="text-slate-600 text-[10px] mt-2 uppercase tracking-widest">Lapalud, France</p>
+        <div class="flex justify-center gap-8 mb-6 text-sm text-slate-500">
+            <a href="/community-management" class="hover:text-white transition">Community Management</a>
+            <a href="/solutions-saas" class="hover:text-white transition">Solutions SaaS</a>
+        </div>
+        <p class="text-slate-600 text-sm">© 2026 Digiclem. Excellence digitale & éthique.</p>
     </footer>
 
 </body>
